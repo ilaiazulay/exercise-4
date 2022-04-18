@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="error">
+    <form id="form" action="http://se.shenkar.ac.il/teach/web1/get_form3.php" method="get">
+    </div>
+        <label for="name">Full Name:
+            <input id="name" type="text" name="fullName" placeholder="Full name">
+        </label>
+        <br>
+        <label>Password:
+            <input id="password" type="password" name="pass">
+        </label>
+        <br>
+        <label>Email:
+            <input type="email" name="mail">
+        </label>
+        <br>
+        <label>Website:
+            <input type="url" name="website">
+        </label>
+        <br>
+        <label>Phone:
+            <input id="phone" type="tel" name="phone">
+        </label>
+        <br>
+        <label>Coffee:
+            <input type="number" name="coffee">
+        </label>
+        <br>
+        <label>Temperatue:
+            <input type="range" name="temper">
+        </label>
+        <br>
+        <label>Address:
+            <textarea name="address" rows="2" cols="30"></textarea>
+        </label>
+        <br>
+        <br>
+        <span>Interests:</span>
+        <lable>Reading Books<input class="interest" type="checkbox" name="interests[]" value="Reading Books"></lable>
+        <lable>Children<input class="interest" type="checkbox" name="interests[]" value="Children"></lable>
+        <lable>Sleeping<input class="interest" type="checkbox" name="interests[]" value="Sleeping"></lable>
+        <lable>Studing<input class="interest" type="checkbox" name="interests[]" value="Studing"></lable>
+        <lable>Cleaning<input class="interest" type="checkbox" name="interests[]" value="Cleaning"></lable>
+        <br>
+
+        <span id="gender">Gender:</span>
+        <lable>male<input type="radio" name="gender" value="male" checked></lable>
+        <lable>female<input type="radio" name="gender" value="female"></lable>
+        <br>
+
+        <label>Age:
+            <select name="age" required>
+                <option value="10">10</option>
+                <option value="20">20</option>
+                <option value="30">30</option>
+                <option value="40">40</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <input id="submit-button" type="submit" value="send">
+    </form >
+
+</body>
+</html>

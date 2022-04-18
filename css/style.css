@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+footer,
+nav,
+aside,
+section,
+div
+{
+    display: block;
+}
+
+body{
+    font-family: 'mulish', sans-serif;
+}
+
+label{
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+label input{
+    position: absolute;
+    left: 100px;
+    margin-top: 1px;
+}
+
+label textarea{
+    position: absolute;
+    left: 100px;
+}
+
+span{
+    margin-right: 19px;
+    margin-top: 5px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+#gender{
+    margin-right: 30px;
+}
+
+select{
+    margin-left: 57px;
+}
+
+#submit-button{
+    margin-left: 5px;
+}
+
